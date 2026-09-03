@@ -1,0 +1,222 @@
+
+    body {
+    margin: 0;
+
+}
+.name{
+    margin:0;
+    font-family: "Caveat", cursive;;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 75px;
+    color: #66bfbf;
+}
+.prg{
+  
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+    color: #66bfbf;
+    font-size: 55px;
+}
+.bird-pic{
+    position: absolute;
+    left: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+   width: 250px;
+   height: 125px;
+}
+.cloud{
+    position: absolute;
+    right: 100px;
+    top: 35%;
+    width: 250px;
+    height: 200px;
+    
+}
+.cloud-right{
+    position: absolute;
+    left: 50px;
+     width: 450px;
+    height: 300px;
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-section{
+    position: relative;
+    background-color:#e4f9f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: center;     
+    height: 100vh;
+    
+}
+.mountain {
+    width: 1200px;
+    height: 500px; 
+    padding: 0;   
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+
+}
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    
+}
+.my-pic{
+    position: absolute;
+    top:10%;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+  
+}
+.hello{
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    color:#66bfbf ;
+    font-size: 3rem;
+}
+.para{
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;   
+    text-align: center;
+    line-height: 1.8;
+}
+.my-skill{
+    position: absolute;
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  top: 80%;
+  font-style: normal;
+  color: #66bfbf;
+}
+.skills {
+    width: 50%;
+    margin: 0 auto;
+}
+.skills{
+   display: grid;
+   grid-template-columns: 250px 1fr;
+   column-gap: 30px;
+   align-items: start;
+   margin-bottom: 50px;
+   
+}
+.skills img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.skill-text p {
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.8;
+    font-family: "Montserrat Alternates", sans-serif;
+    max-width: 450px;
+}
+.skill-text h3{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: normal;
+    color: #66bfbf;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.top-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+.top-content h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+.top-content h3{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight:500;  
+    
+}
+.para-content{
+    max-width: 700px;
+  line-height: 1.8;
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-size: large;
+  text-align: center;
+}
+.btn{
+
+    background-color: #11999e;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:#66bfbf;
+}
+.bottom-content{
+    background-color:#66bfbf;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.footers{
+    margin:0 15px;
+    text-decoration: none;
+    font-size: large;
+    color: #33658A;
+    cursor: POI;
+}
+.footers:hover{
+    color: #e4f9f5;
+}
+.bottom-content p{
+    margin-top: 40px;
+    text-align: center;
+     color: white;
+}
